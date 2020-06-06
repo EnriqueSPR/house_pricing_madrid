@@ -42,6 +42,7 @@ Looked at the distributions of the data, value counts and correlation among the 
 ![](Images/location_house_price_removed_outliers.png)
 
 
+
 # 3. Model Building
 Categorical variables  were transformed into dummy variables. Data Wwas splitted into train and tests sets with a test size of 20%.
 
@@ -54,14 +55,16 @@ Lasso Regression – Because of the sparse data from the many categorical variab
 Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
 **Model Performance**: 
-* Ramdom Forest: Best_Score = 0.89
+* Random Forest: Best_Score = 0.89
 * Decission Tree Regression: Best_Score = 0.88
 * Linear Regression: Best_Score = 0.86
 
-  ![](Images/Random Forest Data.png)
-  ![](Images/Decission Tree Data.png)
-  ![](Images/Lineal Regression Data.png)
+![](Images/Random%20Forest%20Data.png)
+
+![](Images/Decision%20Tree%20Data.png)
   
+![](Images/Linear%20Regression%20Data.png)
+
 
 # 4. Productionization
 
