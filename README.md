@@ -31,7 +31,7 @@
 
 * Replaced Nans
 
-# 3. Exploratory Data Analyses (EDA)
+# 2. Exploratory Data Analyses (EDA)
 
 Looked at the distributions of the data, value counts and correlation among the various categorical variables. Below are a few highlight figures.
 
@@ -42,7 +42,7 @@ Looked at the distributions of the data, value counts and correlation among the 
 ![](Images/location_house_price_removed_outliers.png)
 
 
-# 4. Model Building
+# 3. Model Building
 Categorical variables  were transformed into dummy variables. Data Wwas splitted into train and tests sets with a test size of 20%.
 
 I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.
@@ -63,7 +63,7 @@ Random Forest – Again, with the sparsity associated with the data, I thought t
   ![](Images/Lineal Regression Data.png)
   
 
-# 5. Productionization
+# 4. Productionization
 
-In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with the list of house parameters and returns the estimated price.
+In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with the list of house parameters and returns the estimated price. A website that makes use of the model prediction was also created.
 
