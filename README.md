@@ -70,3 +70,4 @@ Random Forest – Again, with the sparsity associated with the data, I thought t
 
 In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with the list of house parameters and returns the estimated price. A website that makes use of the model prediction was also created.
 
+![](Images/Prediction_Tool_Screenshot.png)
