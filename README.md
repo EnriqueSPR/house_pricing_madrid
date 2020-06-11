@@ -23,7 +23,7 @@
 
 # 1. Data Cleaning
 
- I made the following changes and created the following variables:
+ I made the following changes:
  
 * Formatted some columns
 
