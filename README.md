@@ -1,5 +1,7 @@
 # Data Science Price Estimator from Houses in Madrid: Project Overview
 
+[**See full project here.**](https://nbviewer.jupyter.org/github/EnriqueSPR/house_pricing_madrid/blob/master/Model/house_price_project_removed_outliers.ipynb)
+
 * Created a tool that estimates prices from Madrid houses which can help flat owners, as well as people looking for a house, to get an idea of the Real State Market in Madrid.
 
 * Performed data cleaning steps and removed outliers.
